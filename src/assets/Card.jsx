@@ -38,7 +38,7 @@ export default function Card(props) {
              {badgeText && <div className="cardlable">{badgeText}</div>}
                      <img src={"/images/" + props.x.img} className="card--image" />
             <div className="card--stats">
-               <img src="../public/images/Star.jpg" className="card--star" />
+               <img src="/images/Star.jpg" className="card--star" />
                 <span>{props.x.stats.rating}</span>
                 <span className="gray">({props.x.stats.reviewCount}) • </span>
                 <span className="gray">{props.x.location}</span>
