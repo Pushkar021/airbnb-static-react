@@ -36,7 +36,7 @@ export default function Card(props) {
         
         <div className="card">
              {badgeText && <div className="cardlable">{badgeText}</div>}
-                     <img src={"../public/images/" + props.x.img} className="card--image" />
+                     <img src={"/images/" + props.x.img} className="card--image" />
             <div className="card--stats">
                <img src="../public/images/Star.jpg" className="card--star" />
                 <span>{props.x.stats.rating}</span>
