@@ -2,4 +2,4 @@
 
 
 Click the link below to see the project in action:
-* [Airbnb exeperiences](https://main--airbnb-static.netlify.app/)
+* [Airbnb exeperiences](https://airbnbexperiences-static-react.netlify.app/)
